@@ -11,7 +11,7 @@
             var formData = new FormData($("#profileUp")[0]);
 
             $.ajax({
-                url: "https://deligyongy.hu/cgi-bn/nupdf/tip.php",
+                url: "https://deligyongy.hu//cgi-bn/nupdf/tip.php",
                 type: 'POST',
                 data: formData,
                 contentType: false,
